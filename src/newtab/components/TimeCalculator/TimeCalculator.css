@@ -1,0 +1,80 @@
+.time-shower {
+  @apply text-xl font-semibold rounded bg-xbase px-2 w-[65px] flex items-center justify-center h-8;
+}
+.slot-overlay {
+  @apply rounded bg-xbase w-[65px] flex h-8 relative;
+}
+.tx {
+  @apply text-xl font-semibold absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.time-shower1 {
+  @apply w-[65px] h-8 z-10;
+}
+.root-input {
+  border-color: transparent !important;
+  cursor: pointer;
+  @apply bg-xbase;
+  &:focus, &:focus-within {
+    box-shadow: 0 0 0 2px #ff92d0 !important;
+    @apply border-inputHover !important;
+  }
+  &:hover {
+    @apply border-inputHover bg-xbase !important;
+    .ant-picker-suffix {
+      opacity: 1 !important;
+      color: white;
+    }
+  }
+  input, .ant-picker-clear {
+    opacity: 0 !important;
+    display: none !important;
+  }
+  .ant-picker-input {
+    .ant-picker-suffix {
+      font-size: 16px;
+    }
+    justify-content: center;
+    input {
+      &::placeholder {
+        color: #fff !important;
+      }
+    }
+  }
+}
+.picker-panel {
+  min-width: unset !important;
+  &:focus-within {
+    box-shadow: none !important;
+  }
+  @apply rounded overflow-hidden bg-transparent !important;
+}
+.ccx {
+  @apply absolute inset-0 flex justify-center items-center text-xl font-semibold text-white;
+}
+[data-type="hour"] {
+  li.ant-picker-time-panel-cell {
+    &:not([data-value="7"], [data-value="8"], [data-value="9"]) {
+      display: none !important;
+    }
+  }
+}
+.seed {
+  background-color: #00000036 !important;
+  max-width: 52px;
+  text-align: center;
+  border-color: transparent !important;
+  @apply text-xl font-semibold text-white;
+  &:focus, &:focus-within {
+    box-shadow: 0 0 0 2px #ff92d0 !important;
+    @apply border-inputHover !important;
+  }
+  &:hover {
+    @apply border-inputHover !important;
+  }
+}
+.cluster {
+  @apply py-4 rounded-r-xl bg-xbase;
+}

@@ -1,0 +1,105 @@
+div.tab-container {
+	&::before {
+		content: '';
+		position: fixed;
+		z-index: -1;
+		inset: 0;
+		background-image: url('https://source.unsplash.com/random');
+		background-size: cover;
+		filter: blur(10px);
+	}
+}
+
+.header {
+	padding: 0.1rem 1rem 0.65rem 1rem;
+	font-weight: bolder;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		inset: 0;
+		background-color: #00000036;
+		z-index: -1;
+		box-shadow: 0 2px 20px 0 #00000036;
+	}
+}
+
+.timer {
+	font-size: 1.8rem;
+	margin: 0;
+}
+
+.shortcut {
+	@apply flex flex-col justify-between items-center px-2 py-4 rounded-xl aspect-square duration-200;
+
+	background-color: #00000036;
+	.name,
+	img, .fallback-icon {
+		@apply duration-200;
+		filter: grayscale(1);
+	}
+	&:hover {
+		background-color: #00000054;
+		box-shadow: 0 0 25px 2px #fff;
+		img, .fallback-icon {
+			filter: grayscale(0);
+		}
+	}
+}
+
+.fill-green {
+	svg {
+		@apply fill-green-700;
+	}
+}
+.edit-mode {
+	@apply rounded-xl absolute inset-0 grid grid-cols-2 overflow-hidden;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, 0.75);
+	.edit-item {
+		@apply flex items-center justify-center duration-200 cursor-pointer;
+		&:first-child {
+			border-right: 1px solid #646464;
+		}
+		&:hover {
+			background-color: rgba(59, 59, 59, 0.692);
+		}
+	}
+}
+
+@keyframes ios1 {
+	0% {
+		transform: rotate(-1deg);
+		animation-timing-function: ease-in;
+	}
+	50% {
+		transform: rotate(1.5deg);
+		animation-timing-function: ease-out;
+	}
+}
+
+@keyframes ios2 {
+	0% {
+		transform: rotate(1deg);
+		animation-timing-function: ease-in;
+	}
+	50% {
+		transform: rotate(-1.5deg);
+		animation-timing-function: ease-out;
+	}
+}
+
+.is-editing {
+	--d: 0.35s;
+	&:nth-child(odd) {
+		animation: ios1 var(--d) ease-in infinite;
+		transform-origin: 50% 20%;
+	}
+	&:nth-child(even) {
+		animation: ios2 var(--d) ease-in infinite;
+		transform-origin: 65% 50%;
+	}
+}

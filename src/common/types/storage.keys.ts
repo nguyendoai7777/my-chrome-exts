@@ -1,0 +1,6 @@
+export const STORAGE_KEYS = {
+  SHORTCUT: 'SHORTCUT',
+  CHECK_TIME: 'CHECK_TIME',
+  SEED: 'SEED',
+  SAVED_DATE: 'SAVED_DATE'
+} as const;
