@@ -19,6 +19,16 @@ const shortcuts: ShortcutProps[] = [
     url: 'https://web.telegram.org/a',
   },
   {
+    name: 'Netflix',
+    image: 'https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico',
+    url: 'https://www.netflix.com/browse',
+  },
+  {
+    name: 'Soundcloud',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Antu_soundcloud.svg',
+    url: 'https://soundcloud.com/discover',
+  },
+  {
     name: 'Dịch',
     image: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png',
     url: 'https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate',

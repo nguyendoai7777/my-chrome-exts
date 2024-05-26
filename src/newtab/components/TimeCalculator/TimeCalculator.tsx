@@ -84,7 +84,7 @@ export default function TimeCalculator() {
               format="HH:mm"
               className="root-input ml-4 time-shower1"
               popupClassName="picker-panel"
-              onChange={(e) => {
+              onPickerValueChange={(e) => {
                 const tim = {
                   hour: time(e.hour()),
                   minute: time(e.minute())

@@ -25,8 +25,7 @@
         "assets/index.ts-loader-21281b59.js"
       ],
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "<all_urls>"
       ]
     }
   ],
@@ -46,8 +45,7 @@
     },
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "<all_urls>"
       ],
       "resources": [
         "assets/chunk-5135a214.js"
@@ -57,9 +55,19 @@
   ],
   "permissions": [
     "sidePanel",
-    "storage"
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "nativeMessaging"
   ],
   "chrome_url_overrides": {
     "newtab": "newtab.html"
-  }
+  },
+  "optional_permissions": [
+    "topSites"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }

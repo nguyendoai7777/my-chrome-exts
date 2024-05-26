@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Facebook",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg",
+    "url": "https://facebook.com"
+  },
+  {
+    "name": "Youtube",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "url": "https://youtube.com"
+  },
+  {
+    "name": "Telegram",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "url": "https://web.telegram.org/a"
+  },
+  {
+    "name": "Netflix",
+    "image": "https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico",
+    "url": "https://www.netflix.com/browse"
+  },
+  {
+    "name": "Dịch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png",
+    "url": "https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate"
+  },
+  {
+    "name": "Netflix",
+    "image": "https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico",
+    "url": "https://www.netflix.com/browse"
+  },
+  {
+    "name": "Gaming",
+    "image": "https://www.svgrepo.com/show/353655/discord-icon.svg",
+    "url": "https://discord.com/channels/1103249870929801297/1103249870929801303"
+  },
+  {
+    "name": "Zing",
+    "image": "https://static-zmp3.zmdcdn.me/skins/zmp3-v5.2/images/icon_zing_mp3_60.png",
+    "url": "https://zingmp3.vn/zing-chart"
+  },
+  {
+    "name": "Soundcloud",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Antu_soundcloud.svg",
+    "url": "https://soundcloud.com/discover"
+  },
+  {
+    "name": "",
+    "image": "",
+    "url": ""
+  },
+  {
+    "name": "",
+    "image": "",
+    "url": ""
+  },
+]

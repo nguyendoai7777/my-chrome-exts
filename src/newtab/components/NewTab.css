@@ -37,21 +37,21 @@ div.tab-container {
 
 	background-color: #00000036;
 	.name,
-	img, .fallback-icon {
+	:is(img), .fallback-icon {
 		@apply duration-200;
 		filter: grayscale(1);
 	}
 	&:hover {
 		background-color: #00000054;
 		box-shadow: 0 0 25px 2px #fff;
-		img, .fallback-icon {
+		:is(img), .fallback-icon {
 			filter: grayscale(0);
 		}
 	}
 }
 
 .fill-green {
-	svg {
+	:is(svg) {
 		@apply fill-green-700;
 	}
 }
