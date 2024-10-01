@@ -31,7 +31,7 @@ const shortcuts: ShortcutProps[] = [
   {
     name: 'Dịch',
     image: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png',
-    url: 'https://translate.google.com/?hl=vi&sl=en&tl=vi&op=translate',
+    url: 'https://www.google.com/search?q=dich&oq=dich&aqs=chrome..69i57j69i60.1998j0j4&sourceid=chrome&ie=UTF-8',
   },
 ];
 

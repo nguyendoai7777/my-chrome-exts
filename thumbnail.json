@@ -45,13 +45,13 @@
     "url": "https://soundcloud.com/discover"
   },
   {
-    "name": "",
-    "image": "",
-    "url": ""
+    "name": "ChatGPT",
+    "image": "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
+    "url": "https://chatgpt.com"
   },
   {
-    "name": "",
-    "image": "",
-    "url": ""
-  },
+    "name": "claude",
+    "image": "https://claude.ai/images/claude_app_icon.png",
+    "url": "https://claude.ai/"
+  }
 ]
